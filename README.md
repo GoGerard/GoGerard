@@ -2,7 +2,7 @@
 GoGerard's Main Repository
 
 ----------
-![Hi!](https://cdn.rawgit.com/GoGerard/GoGerard/master/GoGerard.svg)
+![Hi!](https://cdn.rawgit.com/GoGerard/GoGerard/9998b44aa0603edef5c48026f3fcd241e67e9ad6/GoGerard.svg)
 ----------
 GoGerard is an opensource project that focuses on easy to adapt, community-driven chatbots for [Discord](https://discordapp.com/).
 
