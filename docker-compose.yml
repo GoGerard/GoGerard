@@ -1,0 +1,27 @@
+#postgres
+postgres:
+  image: postgres:latest
+  ports:
+    - "5432:5432"
+  environment:
+    POSTGRES_PASSWORD: ChooseHereANicePassword
+
+#discord
+gerarddiscord:
+  build: GerardDiscord
+  links:
+    - postgres
+
+#api
+gerardapi:
+  build: GerardAPI
+  ports:
+    - "8080:8080"
+  links:
+    - postgres
+
+#gerardjs
+gerardjs:
+  build: GerardJS
+  ports:
+    - "80:80"
