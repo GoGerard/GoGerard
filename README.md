@@ -43,7 +43,7 @@ Future features:
 
 ----------
 ### How to use?
-Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed!
+Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed! Or look at the specific repo's to only install one service.
 
 - Clone Repo
 - (Windows) Run GitGoGerard.cmd
@@ -63,6 +63,6 @@ Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed!
 ----------
 ##Please contribute
 
-You can always contribute using pull requests, discuss ideas and bugs using the Github Issues page, or say something to me on the [Unofficial API development server on Discord](https://discordapp.com/invite/0SBTUU1wZTVyGXpr).
+You can always contribute using pull requests, discuss ideas and bugs using the Github Issues page, or say something to me (@Rivalo) on the [Unofficial API development server on Discord](https://discordapp.com/invite/0SBTUU1wZTVyGXpr).
 
 Feel free to change, and adapt the code as you like. I'd like to see the results.
