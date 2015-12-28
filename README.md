@@ -47,6 +47,7 @@ Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed!
 
 - Clone Repo
 - (Windows) Run GitGoGerard.cmd
+- (Linux/OSX) Run GitGoGerard.sh
 - Alternatively (if not on Windows), Git Clone the three repo's inside GoGerard folder.
 - Fill in conf_sample.json, rename to conf.json and put in GerardDiscord folder
 - Edit Postgres password in docker-compose.yml
