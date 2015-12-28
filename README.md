@@ -42,6 +42,22 @@ Future features:
 
 
 ----------
+### How to use?
+Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed!
+
+- Clone Repo
+- (Windows) Run GitGoGerard.cmd
+- Alternatively (if not on Windows), Git Clone the three repo's inside GoGerard folder.
+- Fill in conf_sample.json, rename to conf.json and put in GerardDiscord folder
+- Run `docker-compose up` in properly set up terminal (eq. `docker version` returns server information)
+- Wait for the images to download and build
+- GoGerard automatically starts.
+- CTRL+C exits GoGerard
+- Rerunning `docker-compose up` restarts already built containers in less than a couple seconds.
+- NOTE: Removing the postgres container will remove all saved SQL data. 
+
+
+----------
 ##Please contribute
 
 You can always contribute using pull requests, discuss ideas and bugs using the Github Issues page, or say something to me on the [Unofficial API development server on Discord](https://discordapp.com/invite/0SBTUU1wZTVyGXpr).
