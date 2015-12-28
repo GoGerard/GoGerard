@@ -49,6 +49,8 @@ Prerequisites: Docker, Docker-Machine, Docker-Compose and Git installed!
 - (Windows) Run GitGoGerard.cmd
 - Alternatively (if not on Windows), Git Clone the three repo's inside GoGerard folder.
 - Fill in conf_sample.json, rename to conf.json and put in GerardDiscord folder
+- Edit Postgres password in docker-compose.yml
+- Change api_prefix in `GerardJS/assets/js/app.js` to server IP as seen by the client (So only localhost:8080 or dockermachineip:8080 if the interface is being used locally)
 - Run `docker-compose up` in properly set up terminal (eq. `docker version` returns server information)
 - Wait for the images to download and build
 - GoGerard automatically starts.
