@@ -6,7 +6,7 @@ GoGerard's Main Repository
 ----------
 GoGerard is an opensource project that focuses on easy to adapt, community-driven chatbots for [Discord](https://discordapp.com/).
 
-The application is written in three separated parts, which are all replaceable with your own solution, to adapt to your project's needs.
+The application is written in three separate parts, which are all replaceable with your own solution, to adapt to your project's needs.
 It's basically a full solution for your Discord bot, but might also be partly useful for an already written bot or for your GerardIRC/GerardSMS project.
 
  - [GerardDiscord](https://github.com/GoGerard/GerardDiscord) - A client, written in Golang, that communicates with the Discord API and the PostgreSQL database.
@@ -30,7 +30,7 @@ At the moment it is used to return a (random) picture from specified tags.
 - Return Picture url from random table row.
 - Return Picture urls from table
 - Both features above, but only considering specified tag.
-- Add, Delete and Update Pictures, Tags and their relations using a ok-ish secure web interface.
+- Add, Delete and Update Pictures, Tags and their relations using an ok-ish secure web interface.
 
 Future features:
 - Making the Picture/Tag system more general purpose.
